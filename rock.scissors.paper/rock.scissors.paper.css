@@ -1,0 +1,54 @@
+body {
+      font-family: Arial;
+      background:black;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: aliceblue;
+    }
+
+  
+
+    .result {
+      margin-top: 30px;
+      font-size: 22px;
+      font-weight: bold;
+        color: aliceblue;
+    }
+
+    .score {
+      margin-top: 20px;
+      font-size: 18px;
+        color: aliceblue;
+    }
+
+    .control-btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .move-btn {
+      background:black;
+      border: 3px solid ;
+      border-radius:50%;
+      width: 120px;
+      height: 120px;
+      margin: 20px;
+      padding: 0;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .picture-icon{
+      width: 70px;  /* 让图片比 120px 的圆圈小一点，留出呼吸空间 */
+      height: auto; /* 保持比例 */
+      object-fit: contain; /* 确保图片完整显示在圈内 */
+
+    }
