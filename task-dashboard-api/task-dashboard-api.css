@@ -1,0 +1,18 @@
+  body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; background: #f4f7f6; }
+        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; width: 350px; }
+        .price-box { margin: 20px 0; padding: 10px; border-bottom: 1px solid #eee; }
+        .btc-price { font-size: 28px; color: #f39c12; font-weight: bold; }
+        .eth-price { font-size: 28px; color: #3498db; font-weight: bold; }
+        
+        /* 按钮基础样式 */
+        button { 
+            background: #3498db; color: white; border: none; padding: 12px 30px; 
+            border-radius: 5px; cursor: pointer; font-size: 16px; transition: all 0.3s; 
+        }
+        /* 按钮被禁用时的样式（变灰、鼠标变禁止符号） */
+        button:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        .status { color: #95a5a6; font-size: 12px; margin-top: 15px; min-height: 1em; }
